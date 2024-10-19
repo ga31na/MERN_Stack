@@ -1,0 +1,250 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaeaff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8d5ef3;
+    color: white;
+    padding: 1rem 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Caveat', cursive;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    width: 200px; /* Adjust width as needed */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger-menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
+
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.image-and-text {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.image-and-text img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+.text-box {
+    background-color: #ebd9ff;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.statistics {
+    display: flex;
+    gap: 50px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.stat-box1 {
+    background-color: #689dec;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    color: white;
+}
+
+.stat-box2 {
+    background-color: #6b27ea;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    color: white;
+}
+
+.stat-box3 {
+    background-color: #a981f3;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    color: white;
+}
+
+.stat-box4 {
+    background-color: #000000;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    color: white;
+}
+
+.social-icons {
+    position: fixed;
+    top: 150px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 48px;
+    height: 48px;
+}
+
+.user-info-section {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-panel .btn {
+    background-color: #5f3bc7;
+    color: white;
+    border: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.right-panel {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.right-panel .user-info {
+    max-width: 70%;
+}
+
+.user-info h2 {
+    margin-top: 10px;
+}
+
+.next-btn {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.chatbot-icons {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.chatbot-icons a img {
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    background-color: #8d5ef3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
